@@ -22,7 +22,7 @@ pod 'SHMXTest'
 
 ## Author
 
-bobandiga, ext.mshaptala@tinkoff.ru
+bobandiga, shmx.dev@gmail.com
 
 ## License
 
