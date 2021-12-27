@@ -1,14 +1,11 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '12.0'
+
+source 'https://cdn.cocoapods.org'
 
 target 'SHMXTest_Example' do
-  pod 'SHMXTest', :path => '../'
-
-  target 'SHMXTest_Tests' do
-    inherit! :search_paths
-
-    pod 'Quick', '~> 2.2.0'
-    pod 'Nimble', '~> 8.0.7'
-  end
+  pod 'SHMXTest', path: '../'
+  pod 'SwiftLint', '~> 0.45.0'
+  pod 'SwiftFormat/CLI', '~> 0.49.0'
 end

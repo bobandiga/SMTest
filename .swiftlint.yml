@@ -1,0 +1,64 @@
+warning_threshold: 1
+
+excluded:
+  - Pods
+  - DerivedData
+  - SMEMBOrigination/R.generated.swift
+  - SMEMBOrigination-UI-Tests
+
+disabled_rules:
+  - missing_docs
+  - opening_brace
+  - vertical_whitespace
+  - trailing_whitespace
+  - todo
+  - type_name
+  - force_cast
+
+opt_in_rules:
+- explicit_init
+- missing_docs
+- operator_usage_whitespace
+- overridden_super_call
+- prohibited_super_call
+- sorted_imports
+
+large_tuple: 4
+
+line_length: 200
+
+function_parameter_count:
+  warning: 10
+  error: 15
+
+function_body_length:
+  warning: 100
+  error: 120
+
+type_body_length:
+  warning: 400
+  error: 450
+
+file_length:
+  warning: 500
+  error: 520
+
+nesting:
+  type_level:
+    warning: 3
+  statement_level:
+    warning: 5
+
+identifier_name:
+  min_length: 1
+  max_length: 65
+  excluded:
+    - id
+
+type_name:
+  min_length: 3
+  max_length: 65
+
+cyclomatic_complexity:
+  warning: 15
+  error: 20
