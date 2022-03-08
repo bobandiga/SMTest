@@ -26,11 +26,9 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6657B3710EB8AD9025A2FDFC /* Pods_SHMXTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHMXTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		980A4FEFF5A653C229782044 /* SHMXTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHMXTest.podspec; path = ../SHMXTest.podspec; sourceTree = "<group>"; };
+		980A4FEFF5A653C229782044 /* SHMXTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHMXTest.podspec; path = ../SHMXTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4400D64D557C586D90BCF9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		AFF4D7AA5CE948740D05AC39 /* Pods-SHMXTest_Example_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHMXTest_Example_Tests.release.xcconfig"; path = "Target Support Files/Pods-SHMXTest_Example_Tests/Pods-SHMXTest_Example_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C20C73A4A816F5EB8A2BD0D4 /* Pods_SHMXTest_Example_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHMXTest_Example_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3ABA78F362BC453F4CF6A45 /* Pods-SHMXTest_Example_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHMXTest_Example_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SHMXTest_Example_Tests/Pods-SHMXTest_Example_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DDFEB13175695855754D05B2 /* Pods-SHMXTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHMXTest_Example.release.xcconfig"; path = "Target Support Files/Pods-SHMXTest_Example/Pods-SHMXTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,8 +109,6 @@
 			children = (
 				4F67C38DABA1A133A7B28656 /* Pods-SHMXTest_Example.debug.xcconfig */,
 				DDFEB13175695855754D05B2 /* Pods-SHMXTest_Example.release.xcconfig */,
-				D3ABA78F362BC453F4CF6A45 /* Pods-SHMXTest_Example_Tests.debug.xcconfig */,
-				AFF4D7AA5CE948740D05AC39 /* Pods-SHMXTest_Example_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -147,7 +143,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
