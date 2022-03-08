@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 public protocol VerifySnapshotServiceProtocol {
     func assertSnapshot(reference: UIImage, new: UIImage) throws
 }

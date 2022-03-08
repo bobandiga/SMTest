@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 enum SnapshotUnitFlowManagerError: LocalizedError {
     case fileSuccessfullyCreated(path: String)
 

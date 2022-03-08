@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 protocol SnapshotUnitTestFlowManagerProtocol {
     init(snapshotFileManager: SnapshotFileManagerProtocol,
          assertSnapshot: VerifySnapshotServiceProtocol,

@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 public protocol TakeDifferenceSnapshotServiceProtocol {
     func takeDifferenceSnapshotService(reference: UIImage, failed: UIImage) -> UIImage
 }

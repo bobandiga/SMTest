@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 public protocol TakeSnapshotUnitServiceProtocol {
     func takeSnapshotUnitService(view: UIView) -> UIImage
 }

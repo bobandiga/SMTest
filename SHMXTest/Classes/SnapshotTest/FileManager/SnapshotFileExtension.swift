@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 public enum SnapshotFileExtension: String {
     case png = "png"
     case jpeg = "jpeg"

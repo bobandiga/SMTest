@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 enum SnapshotFileManagerError: LocalizedError {
     case fileNotExist(path: String)
     case fileDataNotExist(path: String)

@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 enum VerifySnapshotServiceError: LocalizedError {
     case noReferenceData
     case noNewData
